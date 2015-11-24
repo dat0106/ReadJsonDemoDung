@@ -31,7 +31,8 @@ public class MainActivity extends Activity {
         noihoc = (TextView)findViewById(R.id.textViewNoiHoc);
         website = (TextView)findViewById(R.id.textViewWebsite);
         fanpage = (TextView)findViewById(R.id.textViewFanpage);
-
+        // vii du ong muon debugger nhe
+        Log.v(this.toString(), "bien string nhe ong");
         runOnUiThread(new Runnable() {
             @Override
             public void run() {

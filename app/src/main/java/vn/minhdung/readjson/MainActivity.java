@@ -45,7 +45,8 @@ public class MainActivity extends Activity {
         @Override
         protected String doInBackground(String... params) {
             String chuoi = getXmlFromUrl(params[0]);
-            Log.v(this.toString(), chuoi);
+            Log.v(MainActivity.this.toString(), "chuoi");
+            Log.v(MainActivity.this.toString(), chuoi);
             return chuoi;
         }
 
